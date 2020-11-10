@@ -13,8 +13,8 @@ defmodule Fact do
     end
   end
 
-  def main(n) do
-    for i <- 1..n do 
+  def main(n1,n2) do
+    for i <- n1..n2 do 
       f = fact(i)
       l = f |> to_charlist |> length
       IO.puts" length of factorial(#{i})=  #{l}"
