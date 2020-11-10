@@ -15,7 +15,9 @@ defmodule Fact do
 
   def main(n) do
     for i <- 1..n do 
-      IO.puts" factorial(#{i})=  #{(fact(i))}"
+      f = fact(i)
+      l = f |> to_charlist |> length
+      IO.puts" length of factorial(#{i})=  #{l}"
     end |> Enum.uniq
   end
   :ok
