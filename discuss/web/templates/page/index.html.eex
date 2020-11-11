@@ -1,6 +1,8 @@
 <div class="jumbotron">
-  <h2><%= gettext "Welcome to %{name}", name: "Phoenix!" %></h2>
-  <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
+  <h2><%= gettext "Bienvenue a  %{name} ", name: "Discuss" %></h2>
+  <p class="lead"> 
+                     This site has been created on November 11 2020 <br />
+                By Edgard petremann (powered by Phoenix).</p>
 </div>
 
 <div class="row marketing">
@@ -30,6 +32,9 @@
       </li>
       <li>
         <a href="https://twitter.com/elixirphoenix">@elixirphoenix</a>
+      </li>
+      <li>
+      <a href="https://github.com/epetremann/learning/tree/main/discuss">discuss source (github)</a>
       </li>
     </ul>
   </div>
